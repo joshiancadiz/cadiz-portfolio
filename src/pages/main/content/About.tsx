@@ -159,7 +159,7 @@ const About = () => {
             </div>
             <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500" className="font-inter text-[.8rem] flex flex-col items-center gap-[.5rem] relative cursor-pointer" id="react" onMouseEnter={() => inHover('#react')} onMouseLeave={() => outHover('#react')}>
               <Skill type={2} skill="React"/>
-              <StackIcon name="reactjs" className="w-[50px]" />
+              <StackIcon name="react" className="w-[50px]" />
               <p>React</p>
             </div>
             <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="600" className="font-inter text-[.8rem] flex flex-col items-center gap-[.5rem] relative cursor-pointer" id="next" onMouseEnter={() => inHover('#next')} onMouseLeave={() => outHover('#next')}>
