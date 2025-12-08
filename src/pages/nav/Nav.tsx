@@ -26,7 +26,7 @@ const Nav = () => {
       <div className="flex items-center gap-[1.5rem]">
       <FaApple className="text-[#fff]" />
       <ul className="nav-list text-[#fff] text-[13px] flex gap-[1em]">
-        <li className="cursor-pointer">Hom</li>
+        <li className="cursor-pointer">Home</li>
         <li className="cursor-pointer">About</li>
         <li className="cursor-pointer">Skills</li>
         <li className="cursor-pointer">Certifications</li>
