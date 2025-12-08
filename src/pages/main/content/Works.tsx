@@ -2,7 +2,7 @@ import Image from "next/image";
 import { SlArrowRight } from "react-icons/sl";
 import yellowfolder from "../../../../public/YellowFolder.png"
 import woosh from "../../../../public/woosh.jpg"
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Aos from "aos";
 
 const Works = () => {

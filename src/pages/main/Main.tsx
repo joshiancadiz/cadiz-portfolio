@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react"
+import { useState } from "react"
 import { FloatingDock } from "../../../components/ui/floating-dock";
 import Image from "next/image";
 import AppStoreIcon from "../../../public/AppStore.png"
