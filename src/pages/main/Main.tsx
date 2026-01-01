@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { FloatingDock } from "../../../components/ui/floating-dock";
 import Image from "next/image";
 import AppStoreIcon from "../../../public/AppStore.png"
@@ -24,9 +24,17 @@ import Works from "./content/Works";
 
 const Main = () => {
 
-  const [showFrame, setShowFrame] = useState('hidden');
+  const [showFrame, setShowFrame] = useState('block');
   const { setPageLabel } = useLabel();
   const { setPageContent } = useContent();
+
+  useEffect(() => {
+      setTimeout(() => {
+        setPageContent(<Home />);
+        setPageLabel("Home")
+      }, 10);
+    }, [])
+
   const showFrameFunction = (id: number) => {
     setTimeout(() => {
       setShowFrame('block');
