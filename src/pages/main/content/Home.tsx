@@ -58,7 +58,7 @@ const Home = () => {
           <h1 className="font-inter text-[4rem] leading-[3.6rem] name" data-aos="fade-right" data-aos-delay="2300" data-aos-duration="500">Joshua Ian Cadiz</h1>
           <div data-aos="fade-right" data-aos-delay="2500" data-aos-duration="500">
           <TypeAnimation
-            sequence={['A Front-End Developer', 2500, 'A UX Designer', 2500]}
+            sequence={['A Full-Stack Developer', 2500, 'A UX Designer', 2500]}
             className="typing-ani font-inter text-[1.8rem]"
             repeat={Infinity}
           />

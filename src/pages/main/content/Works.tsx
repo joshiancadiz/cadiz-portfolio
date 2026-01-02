@@ -1,8 +1,6 @@
 import Image from "next/image";
 import { SlArrowRight } from "react-icons/sl";
 import yellowfolder from "../../../../public/YellowFolder.png"
-import woosh from "../../../../public/woosh.jpg"
-import sas from "../../../../public/sas.png"
 import { useEffect } from "react";
 import Aos from "aos";
 
@@ -15,7 +13,7 @@ useEffect(() => {
 
   const Work = () => {
       return(
-        <div className="w-[100%] h-[70%] px-[2rem] pt-[2rem] overflow-hidden">
+        <div className="w-[100%] h-[auto] px-[2rem] pt-[2rem] overflow-hidden">
           <div className="flex items-center gap-[1rem]" data-aos="fade-right" data-aos-duration="1000">
             <SlArrowRight className="text-[.8rem]"/>
             <Image src={yellowfolder} alt="folder" width={20}/>
@@ -23,25 +21,30 @@ useEffect(() => {
           </div>
           <div className="border-t-[1px] border-[solid] mt-[1rem]" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
           <div className="flex h-[100%] gap-[1rem] mt-[1rem]">
-            <a href="https://woosh-resto-bar-git-main-joshua-cadizs-projects.vercel.app/" className="w-[fit-content]">
-            <div className="flex text-center items-center flex-col h-[280px] w-[250px] border-[1px] bg-[#f4f1f1] rounded-lg">
-              <div className="rounded-t-md overflow-hidden h-[50%]">
-                <Image src={woosh} alt=""/>
-              </div>
-              <div className="flex flex-col px-[1rem] text-[#28282B]">
-                <p  className="py-[.5rem]">Woosh Resto Bar Website</p>
-                <p className="text-[12px] pb-[1rem]">A fully responsive resto bar website built with React, featuring table booking, menu browsing, and smooth design.</p>
+
+            <div className="flex text-left items-center flex-col h-[350px] w-[230px] border-[1px] bg-[#f5f5f5] rounded-lg">
+              <div className="works1 rounded-t-md"></div>
+              <div className="flex flex-col px-[1rem] py-[.5rem] h-[170px] text-[#28282B]">
+                <p className="pb-[.5rem]">Woosh Resto Bar Website</p>
+                <p className="text-[12px] h-[100px]">A fully responsive resto bar website built with React, featuring table booking, menu browsing, and smooth design.</p>
+                <a href="https://github.com/joshiancadiz/woosh-resto-bar" className="w-[fit-content]">
+                <div className="text-[#fff] bg-[#5A56D1] rounded-md p-[.4rem] w-[fit-content]">
+                   <p className="text-[12px]">Project Link</p>
+                </div>
+                </a>
               </div>
             </div>
-            </a>
 
-            <div className="flex text-center items-center flex-col h-[280px] w-[250px] border-[1px] bg-[#f4f1f1] rounded-lg">
-              <div className="rounded-t-md overflow-hidden h-[50%]">
-                <Image src={sas} alt=""/>
-              </div>
-              <div className="flex flex-col px-[1rem] text-[#28282B]">
-                <p  className="py-[.5rem]">Smart Aquatic Steward</p>
-                <p className="text-[12px] pb-[1rem]">A fully responsive resto bar website built with React, featuring table booking, menu browsing, and smooth design.</p>
+            <div className="flex text-left items-center flex-col h-[350px] w-[230px] border-[1px] bg-[#f5f5f5] rounded-lg">
+              <div className="works2 rounded-t-md"></div>
+              <div className="flex flex-col px-[1rem] py-[.5rem] h-[170px] text-[#28282B]">
+                <p className="pb-[.5rem]">Thesis Project: SAS</p>
+                <p className="text-[12px] h-[100px]">Smart Aquatic Steward: An Automated Management and Water Monitoring System for Fish Tanks</p>
+                <a href="https://github.com/joshiancadiz/SASapp">
+                <div className="text-[#fff] bg-[#5A56D1] rounded-md p-[.4rem] w-[fit-content]">
+                   <p className="text-[12px]">Project Link</p>
+                </div>
+                </a>
               </div>
             </div>
             {/* <div className="flex items-center h-[100%] w-[100%]">
