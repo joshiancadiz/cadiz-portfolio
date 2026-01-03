@@ -19,14 +19,14 @@ useEffect(() => {
             <Image src={yellowfolder} alt="folder" width={20}/>
             <p className="font-interthin text-[.8rem]">D:\Desktop\Works</p>
           </div>
-          <div className="border-t-[1px] border-[solid] mt-[1rem]" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-          <div className="flex h-[100%] gap-[1rem] mt-[1rem]">
+          <div className="border-t-[1px] border-[solid] mt-[1rem]" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+          <div className="flex gap-[1rem] mt-[1rem]">
 
-            <div className="flex text-left items-center flex-col h-[350px] w-[230px] border-[1px] bg-[#f5f5f5] rounded-lg">
+            <div className="project flex text-left items-center flex-col h-[350px] w-[230px] bg-[#1E1E1E] rounded-lg">
               <div className="works1 rounded-t-md"></div>
               <div className="flex flex-col px-[1rem] py-[.5rem] h-[170px] text-[#28282B]">
-                <p className="pb-[.5rem]">Woosh Resto Bar Website</p>
-                <p className="text-[12px] h-[100px]">A fully responsive resto bar website built with React, featuring table booking, menu browsing, and smooth design.</p>
+                <p className="pb-[.5rem] text-[#fff]">Woosh Resto Bar Website</p>
+                <p className="text-[12px] text-[#fff] h-[100px]">A fully responsive resto bar website built with React, featuring table booking, menu browsing, and smooth design.</p>
                 <a href="https://github.com/joshiancadiz/woosh-resto-bar" className="w-[fit-content]">
                 <div className="text-[#fff] bg-[#5A56D1] rounded-md p-[.4rem] w-[fit-content]">
                    <p className="text-[12px]">Project Link</p>
@@ -35,11 +35,11 @@ useEffect(() => {
               </div>
             </div>
 
-            <div className="flex text-left items-center flex-col h-[350px] w-[230px] border-[1px] bg-[#f5f5f5] rounded-lg">
+            <div className="project flex text-left items-center flex-col h-[350px] w-[230px] bg-[#1E1E1E] rounded-lg">
               <div className="works2 rounded-t-md"></div>
               <div className="flex flex-col px-[1rem] py-[.5rem] h-[170px] text-[#28282B]">
-                <p className="pb-[.5rem]">Thesis Project: SAS</p>
-                <p className="text-[12px] h-[100px]">Smart Aquatic Steward: An Automated Management and Water Monitoring System for Fish Tanks</p>
+                <p className="pb-[.5rem] text-[#fff]">Thesis Project: SAS</p>
+                <p className="text-[12px] text-[#fff] h-[100px]">Smart Aquatic Steward: An Automated Management and Water Monitoring System for Fish Tanks</p>
                 <a href="https://github.com/joshiancadiz/SASapp">
                 <div className="text-[#fff] bg-[#5A56D1] rounded-md p-[.4rem] w-[fit-content]">
                    <p className="text-[12px]">Project Link</p>
